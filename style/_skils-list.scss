@@ -1,0 +1,50 @@
+
+.skils-list {
+  margin-top: 79px;
+}
+
+.skils-list__wrapper-top {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+}
+
+.skils-list__heading {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.skils-list__description-top {
+  text-align: center;
+}
+
+.skils-list__description {
+  text-align: center;
+  margin-top: 30px;
+  color: #828282;
+  font-weight: 400;
+}
+
+.skils-list__item {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.skils-list__image {
+  display: flex;
+  justify-content: center;
+}
+
+.skils-list__stars {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.skils-list__star {
+  margin: 7px;
+}

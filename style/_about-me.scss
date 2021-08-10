@@ -1,0 +1,20 @@
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color:#F6F6F6;
+  padding-bottom: 46px;
+  padding-top: 46px;
+}
+
+.about-me__heading {
+  text-align: center;
+}
+
+.about-me__caption {
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 29px;
+}

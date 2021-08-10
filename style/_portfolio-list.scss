@@ -1,0 +1,27 @@
+
+.portfolio-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color:#F6F6F6;
+  padding-bottom: 85px;
+}
+
+.portfolio-list__item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.portfolio-list__heading {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 0;
+}
+
+.portfolio-list__link {
+  display: inline-block;
+  margin-top: 40px;  
+}

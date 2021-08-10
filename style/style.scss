@@ -1,0 +1,36 @@
+
+@import 'header';
+@import 'nav';
+@import 'top-block';
+@import 'about-me';
+@import 'skils-list';
+@import 'portfolio-list';
+@import 'footer';
+
+@font-face {
+
+  font-family: 'робото';
+  font-display: swap;
+  src: url('../fonts/Roboto/Roboto-Light.ttf'), 
+      url('../fonts/Roboto/Roboto-Regular.ttf'), 
+      url('../fonts/Roboto/Roboto-Bold.ttf');
+  font-weight: lighter, normal, bold;
+  font-style: normal;
+
+}
+
+
+.wrapper {
+  font-family: 'робото', sans-serif;
+  font-weight: normal;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper__header-nav {
+  margin: 26px;
+  margin-top: 65px;
+  display: flex;
+  justify-content: space-between;
+}
