@@ -4,8 +4,45 @@
   flex-direction: column;
 }
 
+.header_wrapper-top {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__wrapper-description {
+  margin-top: 23px;
+}
+
 .header__logo-text {
   font-weight: bold;
   font-size: 47px;
   line-height: 58px;
+}
+
+@media (min-width: 768px) {
+
+  .header {
+    order: 3;
+    flex-direction: row;
+    
+  }
+
+  .header__wrapper-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0 auto;
+    position: relative;
+    left: -90px;
+  }
+
+  .header__caption {
+    margin-bottom: 0;
+    
+  }
+
+
+
+  
+
 }

@@ -15,3 +15,14 @@
   width: 35px;
   height: 30px;
 }
+
+@media (min-width: 768px) {
+
+  .nav {
+    order: 1;
+    text-align: center;
+  }
+
+  
+
+}
