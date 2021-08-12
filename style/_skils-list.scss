@@ -48,3 +48,16 @@
 .skils-list__star {
   margin: 7px;
 }
+
+@media (min-width: 1200px) {
+
+  .skils-list__item-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .skils-list__item {
+    margin: 100px 50px;
+  }
+
+}

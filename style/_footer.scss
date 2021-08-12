@@ -31,8 +31,10 @@
 }
 
 .footer_links {
+  width: 316px;
   display: flex;
   justify-content: space-around;
+  margin: 0 auto;
   margin-top: 10px;
   margin-bottom: 50px;
 }
@@ -46,4 +48,14 @@
   margin-bottom: 5px;
   color: #828282;
 
+}
+
+@media (min-width: 1200px) { 
+  .footer__button {
+    margin-bottom: 85px;
+  }
+
+  .footer__button {
+    width: 180px;
+  }
 }
