@@ -29,7 +29,7 @@
   line-height: 58px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .header {
     -webkit-box-ordinal-group: 4;
         -ms-flex-order: 3;
@@ -38,6 +38,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    margin-bottom: 50px;
   }
   .header__wrapper-description {
     display: -webkit-box;
@@ -53,6 +54,9 @@
     margin: 0 auto;
     position: relative;
     left: -90px;
+  }
+  .header_wrapper-top {
+    margin-top: 40px;
   }
   .header__caption {
     margin-bottom: 0;
@@ -76,7 +80,7 @@
   height: 30px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .nav {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
@@ -100,12 +104,21 @@
 }
 
 .top-block__image-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  background-image: url("../image/Group 2.1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  width: 316px;
+  height: 478px;
+}
+
+@media (min-width: 1200px) {
+  .top-block__image-wrapper {
+    background-image: url("../image/Group 2.1 retina.png");
+    width: 943px;
+    height: 387px;
+  }
 }
 
 .about-me {
@@ -247,6 +260,34 @@
   margin-top: 40px;
 }
 
+.portfolio-list__image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  width: 316px;
+  height: 171px;
+}
+
+.fashion-img {
+  background-image: url("../image/portfolio/fashion_web.png");
+}
+
+.reebok-img {
+  background-image: url("../image/portfolio/reebok_web.png");
+}
+
+.braun-img {
+  background-image: url("../image/portfolio/braun_web.png");
+}
+
+@media (min-width: 1200px) {
+  .portfolio-list__image {
+    width: 936px;
+    height: 522px;
+  }
+}
+
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -328,27 +369,42 @@
 .wrapper__header-nav {
   margin: 26px;
   margin-top: 65px;
+  width: auto;
+}
+
+.wrapper__header-nav2 {
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  width: 316px;
 }
 
 .wrapper__line {
   display: none;
 }
 
-@media (min-width: 768px) {
-  .wrapper__header-nav {
+@media (min-width: 1200px) {
+  .wrapper__header-nav2 {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    width: 943px;
+    margin: 0 auto;
+  }
+  .wrapper__header-nav {
+    display: block;
+    margin: 0;
   }
   .wrapper__line {
     -webkit-box-ordinal-group: 3;

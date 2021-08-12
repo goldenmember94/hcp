@@ -19,12 +19,12 @@
   line-height: 58px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
 
   .header {
     order: 3;
     flex-direction: row;
-    
+    margin-bottom: 50px;
   }
 
   .header__wrapper-description {
@@ -36,13 +36,13 @@
     left: -90px;
   }
 
+  .header_wrapper-top {
+    margin-top: 40px;
+  }
+
   .header__caption {
     margin-bottom: 0;
     
   }
-
-
-
-  
 
 }
