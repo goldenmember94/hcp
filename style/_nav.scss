@@ -11,6 +11,10 @@
   cursor: pointer;
 }
 
+.nav__menu {
+  display: none;
+}
+
 .nav__image {
   width: 35px;
   height: 30px;
@@ -21,6 +25,27 @@
   .nav {
     order: 1;
     text-align: center;
+  }
+
+  .nav__button {
+    display: none;
+  }
+
+  .nav__menu {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .nav__item {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .nav__item:hover {
+    cursor: pointer;
   }
 
 }

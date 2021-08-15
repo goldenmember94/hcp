@@ -75,6 +75,10 @@
   cursor: pointer;
 }
 
+.nav__menu {
+  display: none;
+}
+
 .nav__image {
   width: 35px;
   height: 30px;
@@ -86,6 +90,27 @@
         -ms-flex-order: 1;
             order: 1;
     text-align: center;
+  }
+  .nav__button {
+    display: none;
+  }
+  .nav__menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  .nav__item {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .nav__item:hover {
+    cursor: pointer;
   }
 }
 
@@ -349,6 +374,10 @@
   border-radius: 25px;
   color: #FFFFFF;
   font-size: 18px;
+}
+
+.footer__button:hover {
+  cursor: pointer;
 }
 
 .footer_links {
