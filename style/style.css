@@ -305,6 +305,7 @@
 .portfolio-list__link {
   display: inline-block;
   margin-top: 40px;
+  color: #070707;
 }
 
 .portfolio-list__image {
