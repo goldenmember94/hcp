@@ -129,10 +129,6 @@
 }
 
 .top-block__image-wrapper {
-  background-image: url("../image/Group 2.1.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   margin: 0 auto;
   width: 316px;
   height: 478px;
@@ -143,7 +139,6 @@
     margin-bottom: 100px;
   }
   .top-block__image-wrapper {
-    background-image: url("../image/Group 2.1 retina.png");
     width: 943px;
     height: 387px;
   }
