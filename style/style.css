@@ -308,24 +308,9 @@
 }
 
 .portfolio-list__image {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   margin: 0 auto;
   width: 316px;
   height: 171px;
-}
-
-.fashion-img {
-  background-image: url("../image/portfolio/fashion_web.png");
-}
-
-.reebok-img {
-  background-image: url("../image/portfolio/reebok_web.png");
-}
-
-.braun-img {
-  background-image: url("../image/portfolio/braun_web.png");
 }
 
 @media (min-width: 1200px) {
